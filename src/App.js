@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import Technologies from "./Technologies";
-import Header from "./Header";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Profile from "./components/Profile";
+
 
 function App() {
     return (
-        <>
+        <div className='app-wrapper'>
             <Header />
-            <Technologies />
-
-        </>
+            <Nav />
+            <Profile />
+        </div>
     );
 }
 
